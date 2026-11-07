@@ -8,7 +8,7 @@ If a reported or known Minecraft RTX issue is missing from this list in particul
 
 - [🟥 Unresolved Issues](#-unresolved)
 - [🟧 Issues Mojang Won't Fix](#-resolved)
-- [🟨 Issues worked around by Vanilla RTX](#-fixed-by-vanilla-rtx)
+- [🟨 Issues worked around by Vanilla RTX or through other means](#-fixed-by-vanilla-rtx)
 - [🟩 Resolved Issues](#-resolved)
 - [⚒️ Vanilla RTX Bug Tracking](#vanilla-rtx-bug-tracking)
 
@@ -18,13 +18,13 @@ These issues have been reported on Mojira, regardless of confirmation status, th
 You will need to login or create an account to be able to vote.
 
 - [MCPE-194207](https://bugs.mojang.com/browse/MCPE/issues/MCPE-194207) - Placing or breaking blocks causes surrounding blocks to flicker with Ray Tracing enabled
-- [MCPE-227510](https://bugs.mojang.com/browse/MCPE/issues/MCPE-227510) - The block destruction (breaking) animated texture overlay appears glitchy with Ray Tracing
+- [MCPE-227510](https://bugs.mojang.com/browse/MCPE/issues/MCPE-227510) - The block destruction (breaking) animated texture overlay appears glitchy with Ray Tracing (🟨Fixed by Supervanilla RTX)
 - [MCPE-183773](https://bugs.mojang.com/browse/MCPE/issues/MCPE-183773) - Entity UV Animations do not work once RTX is enabled.
-- [MCPE-240950](https://bugs.mojang.com/browse/MCPE/issues/MCPE-240950) - Flipbook textures' heightmaps do not render correctly in ray-traced graphics mode
+- [MCPE-240950](https://bugs.mojang.com/browse/MCPE/issues/MCPE-240950) - Flipbook textures' heightmaps do not render correctly in ray-traced graphics mode (🟨Fixed by Supervanilla RTX)
 - [MCPE-241723](https://bugs.mojang.com/browse/MCPE/issues/MCPE-241723) - Animated flipbook textures no longer animate smoothly with ray tracing enabled
 - [MCPE-176104](https://bugs.mojang.com/browse/MCPE/issues/MCPE-176104) - Chunks stop updating and become stuck after toggling Ray Tracing
 - [MCPE-145467](https://bugs.mojang.com/browse/MCPE/issues/MCPE-145467) - The Ray Tracing denoiser causes a major reduction in reflection, shadow and ambient occlusion quality
-- [MCPE-230978](https://bugs.mojang.com/browse/MCPE/issues/MCPE-230978) - Redstone torches always render their alpha channel at full opacity with ray tracing
+- [MCPE-230978](https://bugs.mojang.com/browse/MCPE/issues/MCPE-230978) - Redstone torches always render their alpha channel at full opacity with ray tracing (🟨Fixed by Supervanilla RTX)
 - [MCPE-227473](https://bugs.mojang.com/browse/MCPE/issues/MCPE-227473) - Underwater torch lacks point light (Education Edition)
 - [MCPE-105261](https://bugs.mojang.com/browse/MCPE/issues/MCPE-105261) - Ray Tracing experiences render errors in certain scenes and conditions
 - [MCPE-105028](https://bugs.mojang.com/browse/MCPE/issues/MCPE-105028) - No player shadows or reflections are visible in first person with Ray Tracing
@@ -33,53 +33,53 @@ You will need to login or create an account to be able to vote.
 - [MCPE-111406](https://bugs.mojang.com/browse/MCPE/issues/MCPE-111406) - Chests are culled when off screen with Ray Tracing on
 - [MCPE-110757](https://bugs.mojang.com/browse/MCPE/issues/MCPE-110757) - Entities are culled when off screen with Ray Tracing on
 - [MCPE-127107](https://bugs.mojang.com/browse/MCPE/issues/MCPE-127107) - Glass and glass panes render incorrectly underwater
-- [MCPE-128708](https://bugs.mojang.com/browse/MCPE/issues/MCPE-128708) - Glass has reflections on the bottom of blocks and panes with RTX
-- [MCPE-137654](https://bugs.mojang.com/browse/MCPE/issues/MCPE-137654) - Ray Traced shadows have flickering edges
+- [MCPE-128708](https://bugs.mojang.com/browse/MCPE/issues/MCPE-128708) - Glass has reflections on the bottom of blocks and panes with RTX (🟨Fixed by Supervanilla RTX)
+- [MCPE-137654](https://bugs.mojang.com/browse/MCPE/issues/MCPE-137654) - Ray Traced shadows have flickering edges (🟨Fixed by Supervanilla RTX)
 - [MCPE-153963](https://bugs.mojang.com/browse/MCPE/issues/MCPE-153963) - Ray Traced entities shimmer during movement when DLSS is enabled
 - [MCPE-122733](https://bugs.mojang.com/browse/MCPE/issues/MCPE-122733) - Toggling Ray Tracing is much slower than it should be
-- [MCPE-136109](https://bugs.mojang.com/browse/MCPE/issues/MCPE-136109) - The irradiance cache resets at sunset too jarring
+- [MCPE-136109](https://bugs.mojang.com/browse/MCPE/issues/MCPE-136109) - The irradiance cache resets at sunset too jarring (🟨Fixed by Supervanilla RTX)
 - [MCPE-147520](https://bugs.mojang.com/browse/MCPE/issues/MCPE-147520) - The irradiance cache causes frosted leaves to emit light
 - [MCPE-141852](https://bugs.mojang.com/browse/MCPE/issues/MCPE-141852) - The irradiance cache occasionally fails to propagate light
 - [MCPE-119900](https://bugs.mojang.com/browse/MCPE/issues/MCPE-119900) - God rays appear in underground water caves despite there being no physical path for light to reach them
 - [MCPE-137580](https://bugs.mojang.com/browse/MCPE/issues/MCPE-137580) - Lava and colored glass emit light inconsistently with RTX
-- [MCPE-237181](https://bugs.mojang.com/browse/MCPE/issues/MCPE-237181) - End Flashes don't work correctly with ray tracing
+- [MCPE-237181](https://bugs.mojang.com/browse/MCPE/issues/MCPE-237181) - End Flashes don't work correctly with ray tracing (🟨Fixed by Supervanilla RTX)
 - [MCPE-118768](https://bugs.mojang.com/browse/MCPE/issues/MCPE-118768) - The Light Block does not function with RTX
 - [MCPE-115674](https://bugs.mojang.com/browse/MCPE/issues/MCPE-115674) - Dyeable items render as white with Ray Tracing enabled
 - [MCPE-119887](https://bugs.mojang.com/browse/MCPE/issues/MCPE-119887) - Entities on featured servers are completely black with Ray Tracing on
-- [MCPE-132674](https://bugs.mojang.com/browse/MCPE/issues/MCPE-132674) - Specific water texture opacity prevents underwater volumetric fog from appearing (🟨Fixed in BetterRTX)
-- [MCPE-155625](https://bugs.mojang.com/browse/MCPE/issues/MCPE-155625) - The Darkness effect does not function correctly with Ray Tracing (🟨Fixed in BetterRTX)
-- [MCPE-113992](https://bugs.mojang.com/browse/MCPE/issues/MCPE-113992) - Chain PBR textures don't load and start emitting light in certain locations
-- [MCPE-136281](https://bugs.mojang.com/browse/MCPE/issues/MCPE-136281) - Maps and items placed in Glow Item Frames don't emit light with Ray Tracing on
-- [MCPE-71754](https://bugs.mojang.com/browse/MCPE/issues/MCPE-71754) - Emissive blocks don't emit light while held with Ray Tracing
+- [MCPE-132674](https://bugs.mojang.com/browse/MCPE/issues/MCPE-132674) - Specific water texture opacity prevents underwater volumetric fog from appearing (🟨Fixed by BetterRTX)
+- [MCPE-155625](https://bugs.mojang.com/browse/MCPE/issues/MCPE-155625) - The Darkness effect does not function correctly with Ray Tracing (🟨Fixed by BetterRTX)
+- [MCPE-113992](https://bugs.mojang.com/browse/MCPE/issues/MCPE-113992) - Chain PBR textures don't load and start emitting light in certain locations (🟨Fixed by Vanilla RTX)
+- [MCPE-136281](https://bugs.mojang.com/browse/MCPE/issues/MCPE-136281) - Maps and items placed in Glow Item Frames don't emit light with Ray Tracing on (🟨Partially fixed by Supervanilla RTX)
+- [MCPE-71754](https://bugs.mojang.com/browse/MCPE/issues/MCPE-71754) - Emissive blocks don't emit light while held with Ray Tracing (🟨Fixed by Supervanilla RTX)
 - [MCPE-117722](https://bugs.mojang.com/browse/MCPE/issues/MCPE-117722) - Conduit PBR textures do not load
 - [MCPE-219635](https://bugs.mojang.com/browse/MCPE/issues/MCPE-219635) - Marketplace packs override all other texture packs when used with Ray Tracing or Vibrant Visuals
 - [MCPE-181917](https://bugs.mojang.com/browse/MCPE/issues/MCPE-181917) - The world thumbnail shows the player's hand and held items when Ray Tracing is enabled
-- [MCPE-139002](https://bugs.mojang.com/browse/MCPE/issues/MCPE-139002) - Bows are darkened when Ray Tracing is on  (🟨Fixed in BetterRTX)
+- [MCPE-139002](https://bugs.mojang.com/browse/MCPE/issues/MCPE-139002) - Bows are darkened when Ray Tracing is on  (🟨Fixed by Supervanilla RTX & BetterRTX)
 - [MCPE-138222](https://bugs.mojang.com/browse/MCPE/issues/MCPE-138222) - The sky directly above the player is darker with Ray Tracing (🟨Fixed with a custom LUT preset from [the app](https://github.com/vanilla-rtx/Vanilla-RTX-App/))
 - [MCPE-104310](https://bugs.mojang.com/browse/MCPE/issues/MCPE-104310) - The sky occasionally becomes multicoloured with Ray Tracing on (Mojang could not reproduce, but reports continue)
-- [MCPE-126983](https://bugs.mojang.com/browse/MCPE/issues/MCPE-126983) - Blocks on the edge of clouds cause graphical glitches with Ray Tracing
+- [MCPE-126983](https://bugs.mojang.com/browse/MCPE/issues/MCPE-126983) - Blocks on the edge of clouds cause graphical glitches with Ray Tracing (🟨Fixed by Supervanilla RTX)
 - [MCPE-159473](https://bugs.mojang.com/browse/MCPE/issues/MCPE-159473) - Some areas of the world render incorrectly with Ray Tracing when Render Clouds is on
 - [MCPE-159474](https://bugs.mojang.com/browse/MCPE/issues/MCPE-159474) - Clouds experience render errors and jitter with Ray Tracing
 - [MCPE-125936](https://bugs.mojang.com/browse/MCPE/issues/MCPE-125936) - Powder Snow fog shows the skybox instead of a solid colour with Ray Tracing on
-- [MCPE-121746](https://bugs.mojang.com/browse/MCPE/issues/MCPE-121746) - Cave vines render incorrectly with Ray Tracing on
+- [MCPE-121746](https://bugs.mojang.com/browse/MCPE/issues/MCPE-121746) - Cave vines render incorrectly with Ray Tracing on (🟨Fixed by Supervanilla RTX)
 - [MCPE-116279](https://bugs.mojang.com/browse/MCPE/issues/MCPE-116279) - Text on signs renders incorrectly behind transparent blocks and some items
 - [MCPE-138682](https://bugs.mojang.com/browse/MCPE/issues/MCPE-138682) - Text on signs is not reflected with Ray Tracing
 - [MCPE-119885](https://bugs.mojang.com/browse/MCPE/issues/MCPE-119885) - Selection box lines render above dropped items
 - [MCPE-111329](https://bugs.mojang.com/browse/MCPE/issues/MCPE-111329) - Campfire smoke renders above dropped items
-- [MCPE-120037](https://bugs.mojang.com/browse/MCPE/issues/MCPE-120037) - Placed maps have a rendering issue with Ray Tracing
+- [MCPE-120037](https://bugs.mojang.com/browse/MCPE/issues/MCPE-120037) - Placed maps have a rendering issue with Ray Tracing (🟨Fixed by Supervanilla RTX)
 - [MCPE-133050](https://bugs.mojang.com/browse/MCPE/issues/MCPE-133050) - Banners display a random pattern with certain resource packs applied under Ray Tracing
 - [MCPE-130350](https://bugs.mojang.com/browse/MCPE/issues/MCPE-130350) - Banner patterns don't render with Ray Tracing
-- [MCPE-132570](https://bugs.mojang.com/browse/MCPE/issues/MCPE-132570) - Odd dots appear on clouds when seen through glass or water with Ray Tracing on
+- [MCPE-132570](https://bugs.mojang.com/browse/MCPE/issues/MCPE-132570) - Odd dots appear on clouds when seen through glass or water with Ray Tracing on (🟨Fixed by Supervanilla RTX)
 - [MCPE-129315](https://bugs.mojang.com/browse/MCPE/issues/MCPE-129315) - The fishing rod line becomes offset with Ray Tracing on
 - [MCPE-129202](https://bugs.mojang.com/browse/MCPE/issues/MCPE-129202) - The skybox retains its position when time changes if Ray Tracing is on and Beautiful Skies is off
-- [MCPE-158951](https://bugs.mojang.com/browse/MCPE/issues/MCPE-158951) - Blocks are not transparent in spectator mode with Ray Tracing (🟨Fixed in BetterRTX)
+- [MCPE-158951](https://bugs.mojang.com/browse/MCPE/issues/MCPE-158951) - Blocks are not transparent in spectator mode with Ray Tracing (🟨Fixed by Supervanilla RTX & BetterRTX)
 - [MCPE-104447](https://bugs.mojang.com/browse/MCPE/issues/MCPE-104447) - Ray Tracing cannot be toggled while in a boat
-- [MCPE-157198](https://bugs.mojang.com/browse/MCPE/issues/MCPE-157198) - Hand position becomes incorrect at small window sizes with Ray Tracing
-- [MCPE-69351](https://bugs.mojang.com/browse/MCPE/issues/MCPE-69351) - Hand and held items become disjointed from the body at high FOV with RTX enabled
-- [MCPE-151923](https://bugs.mojang.com/browse/MCPE/issues/MCPE-151923) - Frog spawn renders incorrectly with Ray Tracing on
+- [MCPE-157198](https://bugs.mojang.com/browse/MCPE/issues/MCPE-157198) - Hand position becomes incorrect at small window sizes with Ray Tracing (🟨Fixed by Supervanilla RTX)
+- [MCPE-69351](https://bugs.mojang.com/browse/MCPE/issues/MCPE-69351) - Hand and held items become disjointed from the body at high FOV with RTX enabled (🟨Fixed by Supervanilla RTX)
+- [MCPE-151923](https://bugs.mojang.com/browse/MCPE/issues/MCPE-151923) - Frog spawn renders incorrectly with Ray Tracing on (🟨Fixed by Supervanilla RTX)
 - [MCPE-95662](https://bugs.mojang.com/browse/MCPE/issues/MCPE-95662) - Reloading Minecraft causes mobs' body parts to swap around
 - [MCPE-238296](https://bugs.mojang.com/browse/MCPE/issues/MCPE-238296) - When RTX is enabled, all of the texturs might display wrong.
-- [MCPE-238815](https://bugs.mojang.com/browse/MCPE/issues/MCPE-238815) - Sulfur Cube has transparency issues when in water
+- [MCPE-238815](https://bugs.mojang.com/browse/MCPE/issues/MCPE-238815) - Sulfur Cube has transparency issues when in water. (🟨Fixed by Vanilla RTX & Supervanilla RTX)
 - [MCPE-232858](https://bugs.mojang.com/browse/MCPE/issues/MCPE-232858) - Entity dithering (and other accessibility settings) don't work with RTX.
 - [MCPE-194473](https://bugs.mojang.com/browse/MCPE/issues/MCPE-194473) - Stars are not anti-aliased with RTX
 
@@ -90,13 +90,14 @@ Mojang has been made aware of these issues and has explicitly decided they will 
 - [MCPE-161751](https://bugs.mojang.com/browse/MCPE/issues/MCPE-161751) - The display driver crashes after idling in the main menu with Ray Tracing
 - [MCPE-119904](https://bugs.mojang.com/browse/MCPE/issues/MCPE-119904) - Chunk culling causes light leaks underground in caves with Ray Tracing on
 - [MCPE-159164](https://bugs.mojang.com/browse/MCPE/issues/MCPE-159164) - Barriers and Light Blocks on chunk borders are darkened with Ray Tracing
-- [MCPE-167174](https://bugs.mojang.com/browse/MCPE/issues/MCPE-167174) - Decorated Pots can't use PBR textures
+- [MCPE-167174](https://bugs.mojang.com/browse/MCPE/issues/MCPE-167174) - Decorated Pots can't use PBR textures (🟨Fixed by Supervanilla RTX)
 - [MCPE-168015](https://bugs.mojang.com/browse/MCPE/issues/MCPE-168015) - A chunk renders strangely when using the end_portal blockshape with Ray Tracing
 
 
 ## 🟨 Fixed by Vanilla RTX
 
-These issues are also unresolved, but have fortunately been worked around through other means.
+These issues are also unresolved, but have fortunately been worked around through other means.  
+In order to get the maximum number of bug fixes at once, use Vanilla RTX or Vanilla RTX Normals, alongside the Supervanilla RTX shader mod from the Vanilla RTX App.
 
 - [MCPE-191513](https://bugs.mojang.com/browse/MCPE/issues/MCPE-191513) - Ray Tracing can no longer be enabled from the main menu, only from within a loaded world (worked around by the Vanilla RTX App)
 - [MCPE-152158](https://bugs.mojang.com/browse/MCPE/issues/MCPE-152158) - PBR textures don't load properly, leaving every block shiny, when Ray Tracing is enabled right after a fresh game launch (worked around by the Vanilla RTX App)
