@@ -107,6 +107,7 @@ In order to get the maximum number of bug fixes at once, use Vanilla RTX or Vani
 
 #### With no Mojira report
 
+- Water renders inside boats
 - Mobs with glowing parts in vanilla Minecraft now glow the same way with Ray Tracing, the Creaking's and Copper Golem's eyes included (the emissive textures come with Vanilla RTX)
 - Blocks now show their PBR fully even when rendered as entities, for instance the block you hold now shows its PBR, a Glowstone inside a sulfur cube now lights up, your held blocks, items, and emissive parts of entities, can now light up properly
 - Nether portals and beacon cores now emit light into the world, instead of merely appearing emissive
@@ -114,7 +115,9 @@ In order to get the maximum number of bug fixes at once, use Vanilla RTX or Vani
 - A second glass body seen through glass no longer renders black, and water seen beyond glass is no longer nearly black
 - Volumetric fog no longer disappears through glass, and shows up in reflections like the surface of water and mirrors
 - Lily pads, frogspawn, big dripleaf, and sunflower heads now show the side facing you
+- Shelves are darkened with ray tracing when rendered as an entity
 - The caps of iron and copper bars no longer z-fight with the block above or below
+- Half of screen turning black with superultrawide resolutions (such as 5120x1440) without upscaling.
 - Faces seen from behind no longer show their normal map's relief inverted
 - Banner poles no longer take the cloth's dye
 - The appearance of enchanted items has been restored to look like fancy graphics
