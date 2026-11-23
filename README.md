@@ -42,14 +42,12 @@ You will need to login or create an account to be able to vote.
 - [MCPE-115674](https://bugs.mojang.com/browse/MCPE/issues/MCPE-115674) - Dyeable items render as white with Ray Tracing enabled
 - [MCPE-119887](https://bugs.mojang.com/browse/MCPE/issues/MCPE-119887) - Entities on featured servers are completely black with Ray Tracing on
 - [MCPE-132674](https://bugs.mojang.com/browse/MCPE/issues/MCPE-132674) - Specific water texture opacity prevents underwater volumetric fog from appearing (🟨Fixed by BetterRTX)
-- [MCPE-155625](https://bugs.mojang.com/browse/MCPE/issues/MCPE-155625) - The Darkness effect does not function correctly with Ray Tracing (🟨Fixed by BetterRTX)
 - [MCPE-136281](https://bugs.mojang.com/browse/MCPE/issues/MCPE-136281) - Maps and items placed in Glow Item Frames don't emit light with Ray Tracing on (🟨Partially fixed by Supervanilla RTX)
 - [MCPE-117722](https://bugs.mojang.com/browse/MCPE/issues/MCPE-117722) - Conduit PBR textures do not load
 - [MCPE-219635](https://bugs.mojang.com/browse/MCPE/issues/MCPE-219635) - Marketplace packs override all other texture packs when used with Ray Tracing or Vibrant Visuals
 - [MCPE-181917](https://bugs.mojang.com/browse/MCPE/issues/MCPE-181917) - The world thumbnail shows the player's hand and held items when Ray Tracing is enabled
 - [MCPE-138222](https://bugs.mojang.com/browse/MCPE/issues/MCPE-138222) - The sky directly above the player is darker with Ray Tracing (🟨Fixed with a custom LUT preset from [the app](https://github.com/vanilla-rtx/Vanilla-RTX-App/))
 - [MCPE-104310](https://bugs.mojang.com/browse/MCPE/issues/MCPE-104310) - The sky occasionally becomes multicoloured with Ray Tracing on (Mojang could not reproduce, but reports continue)
-- [MCPE-125936](https://bugs.mojang.com/browse/MCPE/issues/MCPE-125936) - Powder Snow fog shows the skybox instead of a solid colour with Ray Tracing on
 - [MCPE-116279](https://bugs.mojang.com/browse/MCPE/issues/MCPE-116279) - Text on signs renders incorrectly behind transparent blocks and some items
 - [MCPE-138682](https://bugs.mojang.com/browse/MCPE/issues/MCPE-138682) - Text on signs is not reflected with Ray Tracing
 - [MCPE-119885](https://bugs.mojang.com/browse/MCPE/issues/MCPE-119885) - Selection box lines render above dropped items
@@ -90,6 +88,7 @@ In order to get the maximum number of bug fixes at once, use Vanilla RTX or Vani
 - [MCPE-128708](https://bugs.mojang.com/browse/MCPE/issues/MCPE-128708) - Glass has reflections on the bottom of blocks and panes with RTX
 - [MCPE-137654](https://bugs.mojang.com/browse/MCPE/issues/MCPE-137654) - Ray Traced shadows have flickering edges
 - [MCPE-136109](https://bugs.mojang.com/browse/MCPE/issues/MCPE-136109) - The irradiance cache resets at sunset too jarring
+- [MCPE-125936](https://bugs.mojang.com/browse/MCPE/issues/MCPE-125936) - Powder Snow fog shows the skybox instead of a solid colour with Ray Tracing on
 - [MCPE-237181](https://bugs.mojang.com/browse/MCPE/issues/MCPE-237181) - End Flashes don't work correctly with ray tracing
 - [MCPE-71754](https://bugs.mojang.com/browse/MCPE/issues/MCPE-71754) - Emissive blocks don't emit light while held with Ray Tracing
 - [MCPE-139002](https://bugs.mojang.com/browse/MCPE/issues/MCPE-139002) - Bows are darkened when Ray Tracing is on (also fixed by BetterRTX)
@@ -103,7 +102,8 @@ In order to get the maximum number of bug fixes at once, use Vanilla RTX or Vani
 - [MCPE-157198](https://bugs.mojang.com/browse/MCPE/issues/MCPE-157198) - Hand position becomes incorrect at small window sizes with Ray Tracing
 - [MCPE-69351](https://bugs.mojang.com/browse/MCPE/issues/MCPE-69351) - Hand and held items become disjointed from the body at high FOV with RTX enabled
 - [MCPE-151923](https://bugs.mojang.com/browse/MCPE/issues/MCPE-151923) - Frog spawn renders incorrectly with Ray Tracing on
-- [MCPE-167174](https://bugs.mojang.com/browse/MCPE/issues/MCPE-167174) - Decorated Pots can't use PBR textures (Mojang won't fix this one)
+- [MCPE-167174](https://bugs.mojang.com/browse/MCPE/issues/MCPE-167174) - Decorated Pots can't use PBR textures (🟧Mojang won't fix this one)
+- [MCPE-155625](https://bugs.mojang.com/browse/MCPE/issues/MCPE-155625) - The Darkness effect does not function correctly with Ray Tracing (🟨Fixed by BetterRTX as well)
 
 #### With no Mojira report
 
@@ -118,6 +118,7 @@ In order to get the maximum number of bug fixes at once, use Vanilla RTX or Vani
 - Shelves are darkened with ray tracing when rendered as an entity
 - The caps of iron and copper bars no longer z-fight with the block above or below
 - Half of screen turning black with superultrawide resolutions (such as 5120x1440) without upscaling.
+- Fixed Enchantment glint visual disparity between fancy, vibrant visuals, and RTX.
 - Faces seen from behind no longer show their normal map's relief inverted
 - Banner poles no longer take the cloth's dye
 - The appearance of enchanted items has been restored to look like fancy graphics
@@ -126,6 +127,8 @@ In order to get the maximum number of bug fixes at once, use Vanilla RTX or Vani
 - The sky's gradient no longer shows a visible band at every row of the sky texture
 - Terrain seen behind the player through a mirror no longer ends in a hard cut where the game drops chunks
 - The screen no longer stays dark until the window is resized after a shader pass hits an invalid value
+- Surroundings can no longer stay orange for seconds after leaving lava with Ray Tracing on
+- Players' skins no longer render black on some servers
 
 ### Fixed by Vanilla RTX
 
@@ -158,7 +161,7 @@ These don't have a Mojira ticket to link, so they're just mentioned briefly here
 - Tropical fish patterns no longer fail to composite when the fish's base layer is transparent, which was making large parts of their fins invisible
 - Water in a cauldron no longer uses the wrong texture, which gave it a rough, non-water-like appearance
 - Jack o'Lanterns now emit light from all sides, matching their vanilla appearance and function more closely
-- In-world enchanted tridents and firework rockets no longer render completely black (tridents also fixed by Supervanilla RTX)
+- Firework rockets no longer render completely black (tridents also fixed by Supervanilla RTX)
 - The Creaking's eyes stay visible even while the Creaking itself is invisible; its black texture issues are also resolved
 - Iron Golem texture crack rendering issues have been resolved
 - The Sulfur Cube's rendering issues with Ray Tracing have been resolved
