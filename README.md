@@ -41,12 +41,9 @@ You will need to login or create an account to be able to vote.
 - [MCPE-118768](https://bugs.mojang.com/browse/MCPE/issues/MCPE-118768) - The Light Block does not function with RTX
 - [MCPE-115674](https://bugs.mojang.com/browse/MCPE/issues/MCPE-115674) - Dyeable items render as white with Ray Tracing enabled
 - [MCPE-119887](https://bugs.mojang.com/browse/MCPE/issues/MCPE-119887) - Entities on featured servers are completely black with Ray Tracing on
-- [MCPE-132674](https://bugs.mojang.com/browse/MCPE/issues/MCPE-132674) - Specific water texture opacity prevents underwater volumetric fog from appearing (🟨Fixed by BetterRTX)
-- [MCPE-136281](https://bugs.mojang.com/browse/MCPE/issues/MCPE-136281) - Maps and items placed in Glow Item Frames don't emit light with Ray Tracing on (🟨Partially fixed by Supervanilla RTX)
 - [MCPE-117722](https://bugs.mojang.com/browse/MCPE/issues/MCPE-117722) - Conduit PBR textures do not load
 - [MCPE-219635](https://bugs.mojang.com/browse/MCPE/issues/MCPE-219635) - Marketplace packs override all other texture packs when used with Ray Tracing or Vibrant Visuals
 - [MCPE-181917](https://bugs.mojang.com/browse/MCPE/issues/MCPE-181917) - The world thumbnail shows the player's hand and held items when Ray Tracing is enabled
-- [MCPE-138222](https://bugs.mojang.com/browse/MCPE/issues/MCPE-138222) - The sky directly above the player is darker with Ray Tracing (🟨Fixed with a custom LUT preset from [the app](https://github.com/vanilla-rtx/Vanilla-RTX-App/))
 - [MCPE-104310](https://bugs.mojang.com/browse/MCPE/issues/MCPE-104310) - The sky occasionally becomes multicoloured with Ray Tracing on (Mojang could not reproduce, but reports continue)
 - [MCPE-116279](https://bugs.mojang.com/browse/MCPE/issues/MCPE-116279) - Text on signs renders incorrectly behind transparent blocks and some items
 - [MCPE-138682](https://bugs.mojang.com/browse/MCPE/issues/MCPE-138682) - Text on signs is not reflected with Ray Tracing
@@ -103,7 +100,9 @@ In order to get the maximum number of bug fixes at once, use Vanilla RTX or Vani
 - [MCPE-69351](https://bugs.mojang.com/browse/MCPE/issues/MCPE-69351) - Hand and held items become disjointed from the body at high FOV with RTX enabled
 - [MCPE-151923](https://bugs.mojang.com/browse/MCPE/issues/MCPE-151923) - Frog spawn renders incorrectly with Ray Tracing on
 - [MCPE-167174](https://bugs.mojang.com/browse/MCPE/issues/MCPE-167174) - Decorated Pots can't use PBR textures (🟧Mojang won't fix this one)
-- [MCPE-155625](https://bugs.mojang.com/browse/MCPE/issues/MCPE-155625) - The Darkness effect does not function correctly with Ray Tracing (🟨Fixed by BetterRTX as well)
+- [MCPE-136281](https://bugs.mojang.com/browse/MCPE/issues/MCPE-136281) - Maps and items placed in Glow Item Frames don't emit light with Ray Tracing on (🟨Partially fixed by Supervanilla RTX)
+- [MCPE-155625](https://bugs.mojang.com/browse/MCPE/issues/MCPE-155625) - Darkness/Blindess effects don't function correctly with Ray Tracing (🟨Fixed by BetterRTX as well)
+- [MCPE-132674](https://bugs.mojang.com/browse/MCPE/issues/MCPE-132674) - Specific water texture opacity prevents underwater volumetric fog from appearing (🟨Fixed by BetterRTX as well)
 
 #### With no Mojira report
 
@@ -173,8 +172,7 @@ These don't have a Mojira ticket to link, so they're just mentioned briefly here
 - [MCPE-191513](https://bugs.mojang.com/browse/MCPE/issues/MCPE-191513) - Ray Tracing can no longer be enabled from the main menu, only from within a loaded world (worked around by the Vanilla RTX App)
 - [MCPE-152158](https://bugs.mojang.com/browse/MCPE/issues/MCPE-152158) - PBR textures don't load properly, leaving every block shiny, when Ray Tracing is enabled right after a fresh game launch (worked around by the Vanilla RTX App)
 - [MCPE-121850](https://bugs.mojang.com/browse/MCPE/issues/MCPE-121850) - Ray Tracing suffers severe performance starvation when the game's VSync is enabled (worked around by the Vanilla RTX App)
-
-Tip: installing a BetterRTX preset will also help fix several more issues from the unresolved list (particularly the ones marked as (🟨Fixed by BetterRTX))
+- [MCPE-138222](https://bugs.mojang.com/browse/MCPE/issues/MCPE-138222) - The sky directly above the player is darker with Ray Tracing (🟨Fixed with a custom LUT preset from [the app](https://github.com/vanilla-rtx/Vanilla-RTX-App/))
 
 ## 🟩 Resolved
 
